@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e841c8862229d934e54412fab776171",
+    "content-hash": "5264a7c619ed01fc79fbd1be9a3688ea",
     "packages": [
         {
             "name": "beelab/bowerphp",
@@ -113,6 +113,7 @@
                 }
             ],
             "description": "Provides support for json pretty printing",
+            "abandoned": true,
             "time": "2016-02-06T01:25:58+00:00"
         },
         {
@@ -321,26 +322,29 @@
         },
         {
             "name": "jwage/purl",
-            "version": "v0.0.7",
+            "version": "v0.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jwage/purl.git",
-                "reference": "1242069b4d900f176ae7339700d4af5b556b25bf"
+                "reference": "60e2055531941aae6eacb1b513bbb2fc75743f91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jwage/purl/zipball/1242069b4d900f176ae7339700d4af5b556b25bf",
-                "reference": "1242069b4d900f176ae7339700d4af5b556b25bf",
+                "url": "https://api.github.com/repos/jwage/purl/zipball/60e2055531941aae6eacb1b513bbb2fc75743f91",
+                "reference": "60e2055531941aae6eacb1b513bbb2fc75743f91",
                 "shasum": ""
             },
             "require": {
-                "jeremykendall/php-domain-parser": "1.3.1",
+                "jeremykendall/php-domain-parser": "^1.3.1",
                 "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8|^5.5|^6.5|^7.0"
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Purl": "src/"
+                "psr-4": {
+                    "Purl\\": "src/Purl"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -359,7 +363,7 @@
                 "manipulation",
                 "url"
             ],
-            "time": "2016-03-05T16:40:31+00:00"
+            "time": "2018-05-17T15:22:38+00:00"
         },
         {
             "name": "knplabs/github-api",
@@ -775,6 +779,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
+            "abandoned": "symfony/error-handler",
             "time": "2016-07-30T07:22:48+00:00"
         },
         {
@@ -962,12 +967,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1196,8 +1201,8 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "vierbergenlars\\SemVer\\": "src/",
-                    "vierbergenlars\\LibJs\\": "src/"
+                    "vierbergenlars\\LibJs\\": "src/",
+                    "vierbergenlars\\SemVer\\": "src/"
                 },
                 "classmap": [
                     "src/vierbergenlars/SemVer/internal.php"
@@ -1732,6 +1737,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2017-02-27T10:12:30+00:00"
         },
         {
@@ -1860,6 +1866,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2015-10-02T06:51:40+00:00"
         },
         {
@@ -2294,12 +2301,12 @@
             "version": "1.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "2db61e59ff05fe5126d152bd0655c9ea113e550f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/2db61e59ff05fe5126d152bd0655c9ea113e550f",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/2db61e59ff05fe5126d152bd0655c9ea113e550f",
                 "reference": "2db61e59ff05fe5126d152bd0655c9ea113e550f",
                 "shasum": ""
             },
@@ -2353,5 +2360,6 @@
         "ext-mbstring": "*",
         "ext-iconv": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
