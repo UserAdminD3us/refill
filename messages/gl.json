@@ -31,7 +31,7 @@
 	"state-PROGRESS-description": "A tarefa estase a procesar.",
 	"state-SUCCESS": "Todo correcto",
 	"state-SUCCESS-description": "A tarefa foi exitosa.",
-	"state-FAILURE": "Fallida",
+	"state-FAILURE": "Errónea",
 	"state-FAILURE-description": "Houbo un erro.",
 	"state-REVOKED": "Cancelada",
 	"state-REVOKED-description": "A tarefa foi cancelada.",
