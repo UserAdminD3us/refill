@@ -4,5 +4,11 @@
 			"Woytecr"
 		]
 	},
-	"chancetoreview": "Będziesz miał okazję zobaczyć zmiany przed ich zapisaniem."
+	"tagline": "Z łatwością rozpisz gołe przypisy",
+	"fixwikipage": "Napraw stronę",
+	"fixwikipage-page": "Nazwa strony",
+	"fixwikipage-code": "Kod",
+	"chancetoreview": "Będziesz miał okazję zobaczyć zmiany przed ich zapisaniem.",
+	"yes": "Tak",
+	"no": "Nie"
 }
